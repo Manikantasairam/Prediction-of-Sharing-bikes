@@ -42,7 +42,7 @@ In the dataset provided, you will notice that there are three columns named 'cas
 When you're done with model building and residual analysis and have made predictions on the test set, just make sure you use the following two lines of code to calculate the R-squared score on the test set.
 
 hint:
-from sklearn.metrics import r2_score
+from sklearn.metrics import r2_score <br>
 r2_score(y_test, y_pred)
 
 <ol><li>where <i>y_test</i> is the test data set for the target variable, and <i>y_pred</i> is the variable containing the predicted values of the target variable on the test set.</li>
